@@ -1,0 +1,210 @@
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: center;
+  min-width:300px;
+}
+#header {
+  position: fixed; 
+  top: 0;
+  right: 0;
+  left: 0;
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+  color:#fff;
+  height: 60px
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index:999;
+}
+.title {
+  margin-bottom: 20px;
+  font-size: 65px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Header dt {
+  float: left;
+  font-size: large;
+  font-weight: 200;  
+}
+#Header dd {
+  float: right;
+}
+a {
+  text-decoration: none;
+  color:#fff;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+}
+a:hover {
+  color: #66a6ff;
+  font-size: 15px;
+}
+.titlebottom {
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  color:rgb(1, 1, 1 ,0.7);
+  font-size: 3em;
+  text-align: center;
+}
+.abouttt{
+  margin-top: 150px;
+}
+.main{
+  background-image: url(https://github.com/kamajiro/My_Profile/blob/main/kinniku.jpg?raw=true);
+  height: 620px;
+  margin:0 auto;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 100px;
+  background-size: contain;
+}
+.snsicon{
+  font-size: 25px;
+  margin:10px;
+}
+
+.snsicon a{
+  margin:5px;
+  text-decoration: none;
+}
+
+.jikosyoukai {
+  text-align: center;
+}
+
+.syumitokugi {
+  text-align: center;
+}
+
+
+.image_infor img{
+  text-align: center;
+  width:200px;
+  height: 200px;
+  border-radius:50%; 
+  margin: 35px;
+  object-fit: cover;
+}
+
+.image_infor  {
+  display:flex;
+  Justify-content:center;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.image_infor p{
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.button {
+    margin: 60px ;
+    font-weight: bold;
+    color: #fff;
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    border-radius: 50px;
+    padding: 10px;
+    
+}
+.botan {
+  display: flex;
+  justify-content: center;
+  margin-left:-30px;
+
+}
+
+h2 {
+  font-size: 45px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3 {
+  font-size: 20px;
+}
+p {
+  font-size: 13px;
+}
+.dekigoto {
+  text-align: center;
+}
+.naraigto {
+  text-align: center;
+}
+
+footer{
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+  width:100%;
+  height:100px;
+  text-align: center;
+  color:#fff;
+  font-size: 0.8em;
+  margin-top:50px;
+  padding-top: 30px;
+}
+.kuhaku{
+  height:100px;
+}
+
+#jikosyoukaiid,#syumitokugi,#daigaku,#naraigoto{
+  padding-top:157px;
+  margin-top:-157px;
+}
+
+.top-anchor {
+  display: block;
+  position: relative;
+  top: -50px;
+  visibility: hidden;
+}
+
+.hako {
+  margin-top: -20px;
+}
+.adatara {
+  background-image: url(https://github.com/kamajiro/My_Profile/blob/main/adatara.jpg?raw=true);
+  height: 500px;
+  margin:0 auto;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 100px;
+  background-size: contain;
+}
+.bandai {
+  background-image: url(https://github.com/kamajiro/My_Profile/blob/main/banndai.jpg?raw=true);
+  height: 500px;
+  margin:0 auto;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 100px;
+  background-size: contain;
+}
+.anime {
+  animation-name: anime;
+  animation-fill-mode:forwards;
+  animation-duration:6s;
+  animation-timing-function:ease;
+  animation-delay: 0.5s;
+  animation-direction:normal;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  }
+  
+  /*1で解説*/
+  @keyframes anime{
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
